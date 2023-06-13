@@ -255,10 +255,37 @@ img {
     background-color: rgb(54, 54, 54);
 }
 
+.menu-bar-hide {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     .padding-mobile {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .menu-bar {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+    .no-padding-bottom {
+        padding-bottom: 0;
+    }
+
+    .no-position {
+        position: relative;
+        bottom: -5px;
+        width: 75%;
     }
 }
 
