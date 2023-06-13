@@ -146,11 +146,13 @@ img {
 }
 
 .container-small {
-    max-width: 900px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .bg-violet {
     background-color: rgb(151, 146, 228);
+    border: none;
 }
 
 .bg-violet-radius {
@@ -216,4 +218,39 @@ img {
 
 .font-awesome-number-size {
     font-size: 3rem;
+}
+
+.gap-6 {
+    gap: 6rem;
+}
+
+.big-h {
+    font-size: 35px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container-xs {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.container-xxs {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.xl-h {
+    font-size: 50px;
+    color: rgb(250, 193, 98);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: rgb(54, 54, 54);
 }
