@@ -108,6 +108,9 @@ ul li a {
 p {
     line-height: 2rem;
     font-size: 1.2rem;
+}
+
+.p-hero {
     color: rgb(90, 110, 127);
 }
 
@@ -150,15 +153,20 @@ img {
     background-color: rgb(151, 146, 228);
 }
 
+.bg-violet-radius {
+    border-radius: 25px;
+}
+
 .text-white {
     color: white;
 }
 
 .bg-card-white {
     background-color: white;
+    border-radius: 25px;
 }
 
-.bg-card-white p {
+.p-italic {
     font-style: italic;
 }
 
@@ -171,4 +179,41 @@ img {
     background-color: rgb(151, 146, 228);
     border-radius: 50%;
     border: none;
+}
+
+.text-violet {
+    color: rgb(175, 171, 234);
+}
+
+.custom-partners {
+    border-radius: 50%;
+}
+
+.col-left-partners {
+    flex-basis: 25%;
+    padding-right: 3rem;
+}
+
+.col-right-partners {
+    flex-basis: 75%;
+}
+
+.align {
+    align-items: center;
+}
+
+.margin-bottom-1rem {
+    margin-bottom: 1rem;
+}
+
+.small-btn {
+    font-size: 18px;
+}
+
+.padding-bottom-2rem {
+    padding-bottom: 2rem;
+}
+
+.font-awesome-number-size {
+    font-size: 3rem;
 }
