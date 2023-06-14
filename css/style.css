@@ -242,7 +242,14 @@ img {
 }
 
 .aboutus-img {
+    position: relative;
     background-image: url(../img/about.jpg);
+}
+
+.right-font {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .container-xs {
