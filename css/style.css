@@ -295,6 +295,7 @@ img {
         padding-right: 2rem;
         padding-bottom: 1rem;
         background-color: rgb(0, 132, 253);
+        text-align: center;
     }
 
     .menu-bar {
@@ -308,8 +309,7 @@ img {
     }
 
     .active-button:focus~ul {
-        display: flex;
-        justify-content: center;
+        display: block;
     }
 
     .column {
