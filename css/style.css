@@ -295,11 +295,22 @@ img {
         padding-bottom: 0;
     }
 
+    .tablet-reduce {
+        width: 75%;
+    }
+
     .no-position {
         position: relative;
         bottom: -5px;
-        width: 75%;
     }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .phone-reduce {
+        width: 100%;
+    }
+
+    .column-mobile {
+        flex-direction: column;
+    }
+}
